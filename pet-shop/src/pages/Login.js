@@ -20,7 +20,7 @@ const Login = () => {
 						</div>
 
 						<Link className="flex justify-center bg-sky-500 text-white p-2 rounded my-2" to="/home">
-							Cadastrar
+							Entrar
 						</Link>
 					</form>
 					<div className="text-sky-500 text-center">
