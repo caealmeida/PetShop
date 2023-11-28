@@ -12,7 +12,6 @@ const Signin = () => {
 							<label>Nome do pet</label>
 							<input className="border border-sky-600 rounded" type="text"></input>
 						</div>
-
 						<div>
 							<legend>Espécie:</legend>
 
@@ -31,14 +30,17 @@ const Signin = () => {
 								<label for="roedor">Roedor</label>
 							</div>
 						</div>
-
+						<div className="flex flex-col mb-2">
+							<label>Raça</label>
+							<input className="border border-sky-600 rounded" type="text"></input>
+						</div>
 						<div className="flex flex-col mb-2">
 							<label for="nascimento">Data de nascimento:</label>
 							<input className="border border-sky-600 rounded" id="nascimento" type="date"></input>
 						</div>
 
 						<div className="flex flex-col mb-2">
-							<label for="peso">Peso do pet em KG:</label>
+							<label for="peso">Peso (KG):</label>
 							<input className="border border-sky-600 rounded" id="peso" type="number"></input>
 						</div>
 
